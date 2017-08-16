@@ -20,13 +20,6 @@ import Toolbar from './app/components/Toolbar/Toolbar';
 import AddButton from './app/components/AddButton/AddButton';
 
 import * as firebase from 'firebase';
-const firebaseConfig = {
-  apiKey: "AIzaSyBroNpClWA5r8o5W4t5SmYJF-aTNzalVhc",
-  authDomain: "itemlister-12bb9.firebaseapp.com",
-  databaseURL: "https://itemlister-12bb9.firebaseio.com",
-  projectId: "itemlister-12bb9",
-  storageBucket: "itemlister-12bb9.appspot.com",
-};
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
 export default class itemlister extends Component {
