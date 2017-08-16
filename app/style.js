@@ -73,5 +73,18 @@ module.exports = StyleSheet.create({
   liText: {
     color: '#333',
     fontSize: 16
+  },
+  actionText: {
+    color: '#fff',
+    fontSize: 16,
+    textAlign: 'center',
+  },
+  action: {
+    backgroundColor: constants.actionColor,
+    borderColor: 'transparent',
+    borderWidth: 1,
+    paddingLeft: 16,
+    paddingTop: 14,
+    paddingBottom: 16
   }
 });
